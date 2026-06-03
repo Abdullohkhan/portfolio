@@ -311,8 +311,11 @@ if (contactForm) {
     e.preventDefault();
     // send tg bot code here
 
-    const botToken = import.meta.env.VITE_BOT_TOKEN;
-    const groupToken = import.meta.env.VITE_GROUP_TOKEN;
+    // const botToken = import.meta.env.VITE_BOT_TOKEN;
+    // const groupToken = import.meta.env.VITE_GROUP_TOKEN;
+
+    const botToken = '8663158946:AAFoSbiAJAeRpq3BvThIy-NXByWgkvs4EU0';
+    const groupToken = '-1003980643862';
 
     const fullName = contactForm.fullName.value;
     const email = contactForm.email.value;
